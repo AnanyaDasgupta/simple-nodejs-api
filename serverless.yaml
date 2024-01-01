@@ -1,6 +1,6 @@
 functions:
   hello:
-    handler: handler.hello
+    handler: handler/hello.handler
     events:
       - http:
           path: /
